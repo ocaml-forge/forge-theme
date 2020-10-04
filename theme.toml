@@ -1,0 +1,12 @@
+name = "Theme for {forge,download}.ocamlcore.org "
+license = "MIT"
+licenselink = "https://github.com/ocaml/forge-theme/blob/master/LICENSE"
+description = "A theme that mimics the old forge.ocamlcore.org style for Hugo"
+homepage = "http://github.com/ocaml/forge-theme"
+tags = []
+features = []
+min_version = "0.41.0"
+
+[author]
+  name = "Sylvain Le Gall"
+  homepage = "https://sylvain.le-gall.net"
