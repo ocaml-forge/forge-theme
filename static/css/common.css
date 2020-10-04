@@ -1,0 +1,163 @@
+
+/*
+ *
+ * Common theme to all ocamlcore.org websites
+ *
+ */
+
+html, body {
+/*	background-color: #5a0b00;*/
+  background: #de9453;
+}
+
+body {
+	width: 960px;
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div#ocamlcore_header {
+	height: 65px;
+	background: #925a41;
+	padding-top: 20px;
+	border-left: solid 2px #925a41;
+	border-right: solid 2px #925a41;
+}
+
+div#ocamlcore_header span#title {
+	font-size: 40px;
+	font-weight: bold;
+	padding-left: 64px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background: url("https://static.ocamlcore.org/official/images/logo-big.png") no-repeat;
+	vertical-align: center;
+	color: white;
+}
+
+div#ocamlcore_content {
+	background-color: white;
+	padding: 5px;
+	border: solid 2px #925a41;
+}
+
+a:link 
+{ 
+	text-decoration:none; 
+	color: #be000d; 
+}
+
+a:visited 
+{ 
+	text-decoration:none; 
+	color: #be000d; 
+}
+
+a:active 
+{ 
+	text-decoration:none 
+}
+
+a:hover 
+{ 
+	text-decoration:underline; 
+	color:red 
+}
+
+pre
+{
+	display: block;
+	margin: 0.5em;
+	padding: 0.5em;
+	border: solid 1px #cccccc;
+  background-color: #f8f8f8;
+  color: #222222;
+}
+
+div#ocamlcore_footer
+{
+	border: solid 2px #925a41;
+	background-color: white;
+	padding: 3px;
+	margin:  10px;
+	margin-left: 0px;
+	margin-right: 0px;
+	height: 60px;
+	font-weight: normal;
+	font-size: 14px;
+	font-family: sans-serif;
+}
+
+div#ocamlcore_footer div
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+div#ocamlcore_footer ul
+{
+	position: relative;
+	float: left;
+	list-style: none;
+	margin: 0px;
+	margin-top: 10px;
+	padding: 0px;
+}
+
+div#ocamlcore_footer ul li
+{
+	list-style: none;
+	padding: 3px;
+	margin-left: 20px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+div#ocamlcore_footer .ocamlcore_links
+{
+	font-weight: bold;
+}
+
+div#ocamlcore_footer div.ocamlcore_use ul
+{ 
+	margin-top: 10px;
+	margin-left: 2em;
+}
+
+div#ocamlcore_footer div.ocamlcore_use ul li
+{
+	display: inline;
+	padding-left: 0.3em;
+}
+
+div#ocamlcore_footer .ocamlcore_sponsor
+{
+	text-align: left;
+	float: right;
+}
+
+div#ocamlcore_footer div.ocamlcore_sponsor ul
+{
+	position: static;
+	float: none;
+	margin: 0px;
+	padding: 0px;
+}
+div#ocamlcore_footer div.ocamlcore_sponsor ul li
+{
+	margin: 0px;
+	padding-left: 0em;
+}
+
+div#ocamlcore_footer div.ocamlcore_sponsor p
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+div#ocamlcore_footer div.ocamlcore_sponsor img
+{
+	border: none;
+}
+
