@@ -5,5 +5,7 @@
     <title>{{ .Title }}</title>
     <link rel="canonical" href="{{ .Permalink }}" />
     <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+{{- with .Params.no_index }}
+    {{ if . }}<meta name="robot" content="noindex" />{{ end }}
+{{ end -}}
   </head>
-
