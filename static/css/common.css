@@ -79,11 +79,8 @@ div#ocamlcore_footer
 {
 	border: solid 2px #925a41;
 	background-color: white;
-	padding: 3px;
-	margin:  10px;
-	margin-left: 0px;
-	margin-right: 0px;
-	height: 60px;
+	padding: 16px;
+	margin:  10px 0px;
 	font-weight: normal;
 	font-size: 14px;
 	font-family: sans-serif;
@@ -161,3 +158,75 @@ div#ocamlcore_footer div.ocamlcore_sponsor img
 	border: none;
 }
 
+div#ocamlcore_header form#searchBox {
+	position: relative;
+	float: right;
+	margin: 0px;
+	padding: 0px;
+}
+
+div#ocamlcore_header ul {
+	text-align: right;
+	font-size: 12px;
+	margin: 0px;
+}
+
+div#ocamlcore_header li {
+	display: inline;
+	padding-left: 0.5em;
+}
+
+div#outer-tabs {
+	background-color: #ababb2;
+	border-bottom: 1px solid #e0e0e0;
+	border-right: 1px solid #e0e0e0;
+}
+
+div#ocamlcore_content {
+	padding: 16px;
+}
+
+div#ocamlcore_header a:link
+{
+	text-decoration:none;
+	color: white;
+}
+
+div#ocamlcore_header a:visited
+{
+	text-decoration:none;
+	color: white;
+}
+
+div#ocamlcore_header a:active
+{
+	text-decoration:none
+}
+
+div#ocamlcore_header a:hover
+{
+	text-decoration:underline;
+}
+
+div#ocamlcore_content > div#list {
+	display: flex;
+	flex-wrap: wrap;
+	border: 2px solid #ababb2;
+	padding: 8px;
+}
+
+div#ocamlcore_content > div#list > div.element {
+	flex-grow: 1;
+	width: 33%;
+}
+
+div#ocamlcore_content > div#list > div.element:nth-child(even) {
+	background: #f8f8f8;
+}
+
+div#ocamlcore_content > div.important {
+	background: lightgrey;
+	padding: 8px;
+	font-weight: bolder;
+	border: solid 2px brown;
+}

@@ -1,15 +1,18 @@
-{{ partial "header.html" . }}
+{{ partial "head.html" . }}
 <body lang="{{ .Site.LanguageCode }}">
-  {{ $baseurl := .Site.BaseURL }}
-  <a href="{{ .Site.BaseURL  }}">{{ .Site.Title }}</a>
-  <h1>{{ .Title }}</h1>
-  {{ .Content }}
-  <ul>
-    {{ range .Pages }}
-    <li><a href="{{.RelPermalink }}">{{ .Name }}</a></li>
-    {{ end }}
-  </ul>
+  {{ partial "header.html" . }}
+
+  <div id="ocamlcore_content">
+    {{ .Content }}
+    {{ if not .Params.no_list }}
+      {{ .Params.no_list }}
+      <div id="list">
+        {{ range .Pages }}
+        <div class="element"><a href="{{.RelPermalink }}">{{ .Name }}</a></div>
+        {{ end }}
+      </div>
+    {{ end}}
+  </div>
 
   {{ partial "footer.html" . }}
-  </body>
-</html>
+</body>
