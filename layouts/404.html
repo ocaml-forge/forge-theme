@@ -1,5 +1,10 @@
+{{ define "main"}}
+{{ partial "head.html" . }}
 <main id="main">
-    <div>
-        <h1 id="title"><a href="{{ "/" | relURL }}">Go Home</a></h1>
+    {{ partial "header.html" . }}
+    <div id="ocamlcore_content">
+        <p>Page not found.</p>
     </div>
+{{ partial "footer.html" . }}
 </main>
+{{ end }}
